@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+.text-content h1{
+    display: flex;
+    font-size: 52px;
+    margin-left: 50px;
+    gap: 8px;
+}
+.text-content p{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.text-content{
+    display: flex;
+    gap: 20rem;
+    align-items: center;
+    margin-left: 80px;
+    align-items: center;
+    background-color: rgba(253, 230, 138, 1);
+    width: 1200px;
+    height: 598px;
+    justify-content: space-between;
+    border-radius: 50px;
+}
+ .line-1{
+    position: absolute;
+    left: 95%;
+
+
+}
+.line-2{
+    position: absolute;
+    left: -1%;
+}
+
+.arrow-1{
+    position: absolute;
+    right: 1%;
+}
+
+.arrow-2{
+    position: absolute;
+    left: 1%;
+}
+
+.btn{
+    margin-left: 190px;
+}
+
+.button_download{
+    width: 100px;
+    justify-content: space-between;
+    gap: 3rem;
+    margin-top: 40px;
+    display: flex;
+    margin-left: 40px;
+}
