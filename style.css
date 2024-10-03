@@ -1,7 +1,8 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Roboto';
+    font-family: 'Roboto'; 
+    
 }
 
 .text-content h1{
@@ -9,6 +10,7 @@
     font-size: 52px;
     margin-left: 50px;
     gap: 8px;
+    /* height: 100vh; */
 }
 .text-content p{
     margin-top: 20px;
@@ -28,7 +30,7 @@
 }
  .line-1{
     position: absolute;
-    left: 95%;
+    left: 1269px;
 
 
 }
@@ -57,14 +59,12 @@
 
 .button_download {
     background-color: black;
-    border-radius: 52px;
-    font-size: 16px;
+    border-radius: 32px;
+    font-size: 13px;
     display: flex;
-    align-items: center;
-    gap: 1rem;
+
     color: white;
-    text-align: center;
-    width: 170px;
+    width: 160px;
 }
 .button_download:nth-child(2){
     background-color:  rgba(253, 230, 138, 1);
@@ -85,3 +85,54 @@
 .button_download p{
     margin-bottom: 10px;
 }
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.arr {
+    background: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 15px;
+    transition: 0.4s ease;
+}
+.arr :hover{
+    box-shadow: 0px 0px 20px 20px rgb(241, 237, 237);
+}
+.arr div   {
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    border-top: 8px solid #202020;
+    border-left: 8px solid #202020;
+    transform: rotate(45deg);
+    right: 10px;
+    align-items: center;
+    bottom: 18px;
+
+}
+.right {
+    transform: rotate(90deg);
+    position: absolute;
+    left: 1230px;
+    width: 50px;
+    height: 50px;
+    
+
+}
+
+.left {
+    transform: rotate(-90deg);
+    position: absolute;
+    left:20px;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
